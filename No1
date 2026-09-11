@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Đổi Màu Ma Thuật</title>
+    <style>
+        /* Thiết kế giao diện cơ bản */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            background-color: #ffffff;
+            transition: background-color 0.5s ease; /* Hiệu ứng đổi màu mượt mà */
+            padding-top: 100px;
+            margin: 0;
+        }
+        
+        .box-Chinh {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 { color: #333333; font-size: 28px; }
+        
+        p { color: #666666; font-size: 16px; }
+
+        /* Thiết kế nút bấm chuyên nghiệp */
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,123,255,0.3);
+            transition: transform 0.2s;
+        }
+
+        button:active {
+            transform: scale(0.95); /* Hiệu ứng lún nút khi bấm */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box-Chinh">
+        <h1>Giao Diện Đổi Màu Ngẫu Nhiên 🎨</h1>
+        <p>Hãy thử nhấn nút bên dưới để đổi màu nền trang web!</p>
+        <br>
+        <button onclick="doiMauNgauNhien()">Bấm Để Đổi Màu</button>
+    </div>
+
+    <!-- Liên kết tới tệp xử lý logic JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
