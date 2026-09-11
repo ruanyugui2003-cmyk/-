@@ -1,0 +1,1 @@
+console.log("xin chào từ ipad pro M1! alert("chúc mừng bạn đã tạo file thành công!");
